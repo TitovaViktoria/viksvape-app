@@ -1,0 +1,155 @@
+.gal{
+    display: flex;
+}
+
+br{
+    line-height: 0px;
+}
+
+.itemsc{
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.items{
+    width: 865px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.item img{
+    object-fit: contain;
+    width: 265px;
+    height: 150px;
+}
+
+.item{
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.item h3{
+    margin-top: 10px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.item h3::first-letter{
+    text-transform: capitalize;
+}
+
+.item h2{
+    margin-top: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.item h2>span{
+    color: rgba(0, 0, 0, 0.50);
+    text-decoration: line-through;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 16px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    width: 265px;
+    text-align: center;
+    height: 50px;
+    border-radius: 0px 0px 16px 16px;
+    background: var(--button, linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.00) 100%), #9381FF);
+}
+
+.ctitle{
+    display: inline;
+    margin-left: 0px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.filter{
+    width: 265px;
+    margin-top: 60px;
+}
+
+.ftitle{ 
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.checking input[type="checkbox"]{
+    color: #000;
+}
+
+.ftext{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.filter > input[type="checkbox"]{
+    background-color: #fff;
+    margin-right: 11px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+}
+
+.sep{
+    margin: 20px 0px;
+    width: 265px;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.sortbtns{
+    margin-left: 675px;
+    display: inline-block;
+}
+
+.sortbtns *{
+    font-weight: 500;
+    font-size: 24px;
+    display: inline;
+}
+
+.sortbtns input{
+    cursor: pointer;
+    font-size: 32px;
+    background-color: transparent;
+}

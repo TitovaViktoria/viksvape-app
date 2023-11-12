@@ -1,0 +1,21 @@
+{
+     "compilerOptions": {
+     // Type Checking
+     "strict": true,
+    
+     // Modules
+     "module": "NodeNext",
+     "moduleResolution": "nodenext",
+     // Emit
+     "downlevelIteration": true,
+     "outDir": " ./dest/",
+     "sourceMap": true,
+     // Javascript Support
+     "allowJs": true,
+     // Language and Environment
+     "target": "ES6",
+     // Completeness
+     "skipLibCheck": true,
+
+    }
+}

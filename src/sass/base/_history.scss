@@ -1,0 +1,114 @@
+.htitle{
+    margin-top: 30px;
+    text-align: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tablecont{
+    width: 663px;
+    margin: 0px auto;
+    margin-top: 52px;
+}
+
+.tablehead{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+
+.tablehead > *{
+    display: inline;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    text-align: left;
+}
+
+
+.datet{
+    width: 200px;
+    text-align: left;
+}
+
+.summt{
+    width: 200px;
+    text-align: right;
+}
+.goodst{
+    width: 208px;
+    text-align: left;
+}
+
+.itemh{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    padding-bottom: 20px;
+}
+
+.itemh > *{
+    display: inline-table;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.itemh > h3{
+    width: 200px;
+    text-align: left;
+}
+
+.itemh > h3:last-child{
+    text-align: right;
+}
+
+.tovar{
+    width: 208px;
+}
+
+.tovar > p{
+    text-align: left;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+
+.tovar > p::first-letter{
+    text-transform: capitalize;
+}
+
+.bbtn{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    padding: 13px 70px 13px 71px;
+    width: 124px;
+    height: 24px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 16px;
+    background: var(--button, linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.00) 100%), #9381FF);
+}
